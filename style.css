@@ -1,0 +1,22 @@
+#username {
+    display: block;
+    margin-bottom: 10px;
+}
+#reload {
+    display: block;
+    margin-bottom: 10px;
+}
+#update {
+    display: block;
+    margin-bottom: 10px;
+}
+#cont_s, #cont_mode {
+    margin-bottom: 10px;
+}
+
+#read {
+    display: none;
+}
+#write {
+    display: block;
+}
