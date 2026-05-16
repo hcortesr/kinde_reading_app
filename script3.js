@@ -21,7 +21,7 @@ function loadKuromoji() {
         const script = document.createElement("script");
         script.src = "https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/build/kuromoji.js";
         script.onload = () => {
-            kuromoji.builder({ dicPath: "https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict" })
+            kuromoji.builder({ dicPath: "https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict/" })
                 .build((err, tokenizer) => {
                     if (!err) {
                         kuromoji_tokenizer = tokenizer;
